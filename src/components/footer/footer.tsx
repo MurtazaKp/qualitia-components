@@ -10,22 +10,22 @@ const Footer = () => {
     socials: [
       {
         label: "facebook",
-        src: "/images/facebook.png",
+        src: "/images/facebook.PNG",
         href: "www.facebook.com",
       },
       {
         label: "twitter",
-        src: "/images/twitter.png",
+        src: "/images/twitter.PNG",
         href: "www.twitter.com",
       },
       {
         label: "Linkdin",
-        src: "/images/linkedin.png",
+        src: "/images/linkedin.PNG",
         href: "www.linkedin.com",
       },
       {
         label: "youtube",
-        src: "/images/youtube.png",
+        src: "/images/youtube.PNG",
         href: "www.youtube.com",
       },
     ],
