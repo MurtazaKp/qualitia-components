@@ -70,8 +70,8 @@ const Footer = () => {
           {footerData.links.map((link, index) => {
             return (
               <Link
-                className={`px-4 text-center  ${
-                  index !== 2 ? " lg:border-e-[3px] border-[#139dec]" : ""
+                className={`px-4 text-center text-sm font-bold  ${
+                  index !== 2 ? " lg:border-e-[3px] " : ""
                 }`}
                 key={index}
                 href={link.href}
