@@ -6,6 +6,7 @@ import CtaSection from "@/components/ctaSection/ctaSection";
 import BannerSection from "@/components/bannerSection/bannerSection";
 import QualitiaCustomers from "@/components/customers/customer";
 import ImageText from "@/components/imageText/imageText";
+import ImageTextSection from "@/components/ImageTextSection/imageText";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <CtaSection />
       <QualitiaCustomers />
       <ImageText />
+      <ImageTextSection />
     </div>
   );
 }
