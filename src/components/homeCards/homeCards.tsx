@@ -40,7 +40,7 @@ const CardSection = () => {
     ],
   };
   return (
-    <div className="max-w-5xl mx-auto my-5 px-4 lg:px-4">
+    <div className="max-w-5xl mx-auto py-5 sm:py-10 px-4 lg:px-4">
       <div>
         <h2 className="text-[#032d60] text-center font-bold text-3xl w-8/12 mx-auto mb-14">
           {CardData.heading}
