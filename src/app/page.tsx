@@ -11,14 +11,14 @@ import ImageTextSection from "@/components/ImageTextSection/imageText";
 export default function Home() {
   return (
     <div>
-      <BannerSection />
+      {/* <BannerSection /> */}
       <HeroSection />
       <CardSection />
-      <CardsComponent />
+      <ImageTextSection />
+      {/* <ImageText /> */}
+      {/* <CardsComponent /> */}
       <CtaSection />
       <QualitiaCustomers />
-      <ImageText />
-      <ImageTextSection />
     </div>
   );
 }

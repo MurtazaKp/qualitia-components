@@ -13,12 +13,12 @@ const CardsComponent = () => {
           "The Al-powered test automation generation, just on a single click",
       },
       {
-        icons: { src: "/images/circleArrow.png", alt: "card2" },
+        icons: { src: "/images/circleArrow.PNG", alt: "card2" },
         description:
           "The Al-powered test automation generation, just on a single click",
       },
       {
-        icons: { src: "/images/paper.png", alt: "card3" },
+        icons: { src: "/images/paper.PNG", alt: "card3" },
         description:
           "The Al-powered test automation generation, just on a single click",
       },
