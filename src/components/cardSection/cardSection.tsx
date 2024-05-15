@@ -5,7 +5,7 @@ const CardsComponent = () => {
     heading:
       "Identify defects early, continuously improve quality and roll out Salesforce releases faster",
     borderColor: "#76ccff",
-    columns: 4,
+    columns: 3,
     cards: [
       {
         icons: { src: "/images/car.png", alt: "card1" },
@@ -22,24 +22,19 @@ const CardsComponent = () => {
         description:
           "The Al-powered test automation generation, just on a single click",
       },
-      {
-        icons: { src: "/images/car.png", alt: "card4" },
-        description:
-          "The Al-powered test automation generation, just on a single click",
-      },
     ],
   };
 
   return (
     <div className="max-w-6xl mx-auto ">
-      <div className="container px-5 py-24 max-w-6xl mx-auto flex items-center justify-center pl-10">
-        <h1 className="title-font md:text-2xl lg:text-4xl mb-4 w-4/5 inline-block gap- font-bold text-[#032d60]">
+      <div className="  py-24  mx-auto flex items-center justify-center ">
+        <h1 className="title-font text-lg md:text-2xl lg:text-4xl mb-4 w-4/5 inline-block gap- font-bold text-[#032d60]">
           {CardData.heading}
         </h1>
       </div>
       <div
-        className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-${
-          CardData.columns
+        className={`grid mx-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-${
+          CardData.columns && CardData.columns
         }  ${CardData.columns === 3 ? "gap-20" : "gap-10"} `}
       >
         {CardData.cards.map((card, index) => {
