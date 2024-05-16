@@ -26,7 +26,7 @@ const ImageText = () => {
               : "lg:w-6/12"
           }`}
         >
-          <h1 className="title-font md:text-xl lg:text-5xl mb-2 inline-block font-bold text-[#032d60] ">
+          <h1 className="title-font md:text-xl lg:text-4xl mb-2 inline-block font-bold text-[#032d60] ">
             {textAndImageData.description}
           </h1>
         </div>
