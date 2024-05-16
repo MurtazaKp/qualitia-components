@@ -10,8 +10,8 @@ const ImageTextSection = () => {
   };
 
   return (
-    <div className="max-w-5xl mx-auto py-10 flex flex-col gap-5">
-      <h2 className="text-[#032d60] text-3xl text-center font-bold">
+    <div className="max-w-6xl mx-auto px-3 lg:px-0 py-10 flex flex-col gap-5">
+      <h2 className="text-[#032d60] text-2xl sm:text-3xl lg:text-4xl text-center font-bold">
         {ImageTextData.heading}
       </h2>
       {ImageTextData.description && (

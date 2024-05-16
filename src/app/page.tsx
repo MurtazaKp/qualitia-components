@@ -10,6 +10,8 @@ import ImageTextSection from "@/components/ImageTextSection/imageText";
 import Feature from "@/components/features/feature";
 import SectorsSection from "@/components/sectorsSection/sectorsSection";
 import LeadersSection from "@/components/leadersSection/leadersSection";
+import ImageParagraphSection from "@/components/imageParagraphSection/imageParagraphSection";
+import ParagrapghSection from "@/components/paragrapghSection/paragrapghSection";
 
 export default function Home() {
   return (
@@ -20,11 +22,13 @@ export default function Home() {
       <ImageTextSection />
       {/* <ImageText /> */}
       {/* <CardsComponent /> */}
+      <ImageParagraphSection />
       <Feature />
       <QualitiaCustomers />
       <CtaSection />
-      <SectorsSection/>
-      <LeadersSection/>
+      <SectorsSection />
+      <LeadersSection />
+      <ParagrapghSection />
     </div>
   );
 }

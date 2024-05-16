@@ -36,11 +36,11 @@ const QualitiaCustomers = () => {
           {customersData.Heading}
         </h1>
       </div>
-      <div className="grid sm:grid-cols-4 lg:grid-cols-6 gap-3 pt-5 pb-2 ">
+      <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 mx-3 lg:mx-0 pt-5 pb-2 ">
         {customersData.customerIcons.map((customer, index) => {
           return (
             <div
-              className="rounded-md p-1 flex justify-center items-center w-8/12 sm:w-full mx-auto"
+              className="rounded-md p-1 flex justify-center items-center w-full sm:w-full mx-auto"
               key={index}
               style={{ boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px" }}
             >
