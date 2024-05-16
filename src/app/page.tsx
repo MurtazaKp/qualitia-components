@@ -8,6 +8,8 @@ import QualitiaCustomers from "@/components/customers/customer";
 import ImageText from "@/components/imageText/imageText";
 import ImageTextSection from "@/components/ImageTextSection/imageText";
 import Feature from "@/components/features/feature";
+import SectorsSection from "@/components/sectorsSection/sectorsSection";
+import LeadersSection from "@/components/leadersSection/leadersSection";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <Feature />
       <QualitiaCustomers />
       <CtaSection />
+      <SectorsSection/>
+      <LeadersSection/>
     </div>
   );
 }
