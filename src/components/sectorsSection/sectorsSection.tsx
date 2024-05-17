@@ -87,17 +87,17 @@ const sectorsData = {
 
 const SectorsSection = () => {
   return (
-    <div className="max-w-6xl mx-auto pt-28">
+    <div className="container mx-auto pt-28">
       <h2 className="text-[#032d60] text-3xl text-center font-bold mx-auto md:w-7/12">
         {sectorsData.heading}
       </h2>
       <div className="lg:flex justify-center my-10 lg:my-20">
         <div className="lg:w-9/12">
-          <div className="flex items-center justify-center flex-wrap gap-10 lg:gap-20">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 lg:gap-20">
             {sectorsData.sectors.map((sector, index) => (
               <div
                 key={index}
-                className="w-36 flex items-center justify-center flex-col"
+                className="lg:w-36 flex items-center justify-center flex-col"
               >
                 <img
                   className="h-12 w-12 lg:h-16 lg:w-16 object-contain"

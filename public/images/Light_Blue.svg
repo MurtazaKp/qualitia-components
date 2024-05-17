@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1923" height="625" viewBox="0 0 1923 625">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.506" x2="0.663" y2="0.506" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b9e5ff"/>
+      <stop offset="0.515" stop-color="#f0faff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-Light_Blue">
+      <rect width="1923" height="625"/>
+    </clipPath>
+  </defs>
+  <g id="Light_Blue" data-name="Light Blue" clip-path="url(#clip-Light_Blue)">
+    <ellipse id="Ellipse_101" data-name="Ellipse 101" cx="306.427" cy="925.209" rx="306.427" ry="925.209" transform="matrix(0, -1, 1, 0, 34, 618.848)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

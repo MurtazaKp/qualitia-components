@@ -14,7 +14,7 @@ const ImageParagraphSection = () => {
   };
 
   return (
-    <div className="max-w-6xl lg:mx-auto py-10 lg:py-20 flex flex-col gap-10 mx-3">
+    <div className="container lg:mx-auto py-10 lg:py-20 flex flex-col gap-10 mx-3">
       <h2 className="text-[#032d60] text-2xl  sm:text-3xl lg:text-4xl text-center font-bold">
         {ImageParagraphData.heading}
       </h2>

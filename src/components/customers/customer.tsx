@@ -30,7 +30,7 @@ const QualitiaCustomers = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto pt-28">
+    <div className="container mx-auto pt-28">
       <div className="flex items-center justify-center">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-sky-900">
           {customersData.Heading}

@@ -16,12 +16,12 @@ import ParagrapghSection from "@/components/paragrapghSection/paragrapghSection"
 export default function Home() {
   return (
     <div>
-      {/* <BannerSection /> */}
+      <BannerSection />
       <HeroSection />
       <CardSection />
       <ImageTextSection />
       {/* <ImageText /> */}
-      {/* <CardsComponent /> */}
+      <CardsComponent />
       <ImageParagraphSection />
       <Feature />
       <QualitiaCustomers />

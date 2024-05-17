@@ -48,7 +48,7 @@ const Footer = () => {
   };
   return (
     <>
-      <div className="flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between max-w-6xl px-5 xl:px-0 mx-auto py-16">
+      <div className="flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between container px-5 xl:px-0 mx-auto py-16">
         <div className="flex justify-center lg:justify-start flex-col gap-9">
           <img
             className="w-8/12 sm:w-4/12 lg:w-11/12 mx-auto"

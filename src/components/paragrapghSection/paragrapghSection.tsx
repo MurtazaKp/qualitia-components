@@ -9,7 +9,7 @@ const ParagrapghSection = () => {
   };
   return (
     <div>
-      <div className="text-center flex flex-col gap-6 shadow-lg max-w-6xl lg:mx-auto p-10 lg:p-16 border mx-3">
+      <div className="text-center flex flex-col gap-6 shadow-lg container lg:mx-auto p-10 lg:p-16 border mx-3">
         <h2 className="text-[#032d60] text-2xl sm:text-3xl lg:text-4xl text-center font-bold lg:w-8/12 mx-auto">
           {ParagraphData.heading}
         </h2>

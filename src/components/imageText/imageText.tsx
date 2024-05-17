@@ -11,7 +11,7 @@ const ImageText = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="container mx-auto">
       <div
         className={`${
           textAndImageData.layout === "vertical"

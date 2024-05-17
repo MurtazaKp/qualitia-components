@@ -71,7 +71,7 @@ const Header = () => {
   );
 
   return (
-    <div className="max-w-6xl mx-auto py-10 px-4 lg:px-0">
+    <div className="container mx-auto py-10 px-4 lg:px-0">
       <div className="flex gap-10 items-center justify-between">
         <div>
           <img src={header.logo.src} alt={header.logo.alt} />

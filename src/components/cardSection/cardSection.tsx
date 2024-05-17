@@ -26,7 +26,7 @@ const CardsComponent = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto ">
+    <div className="container mx-auto ">
       <div className="  py-24  mx-auto flex items-center justify-center ">
         <h1 className="title-font text-lg md:text-2xl lg:text-4xl mb-4 w-4/5 inline-block gap- font-bold text-[#032d60]">
           {CardData.heading}

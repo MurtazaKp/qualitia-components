@@ -23,7 +23,7 @@ const Feature = () => {
   };
   return (
     <div className="bg-[#032d60] py-5 sm:py-10 lg:py-10">
-      <div className="max-w-6xl mx-auto">
+      <div className="container mx-auto">
         <h2 className="text-white text-center text-3xl sm:w-7/12 font-semibold mx-auto py-6">
           {featureData.heading}
         </h2>

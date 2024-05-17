@@ -36,7 +36,7 @@ const LeadersSection = () => {
     ],
   };
   return (
-    <div className="max-w-6xl mx-auto py-5 sm:py-10 px-4 lg:px-4">
+    <div className="container mx-auto py-5 sm:py-10 px-4 lg:px-0">
       <div>
         <h2 className="text-[#032d60] text-center font-bold text-3xl w-8/12 mx-auto mb-14">
           {CardData.heading}
